@@ -5,7 +5,6 @@ namespace IPMatrixConnectionHandler
 	using System.Linq;
 
 	using Skyline.DataMiner.Automation;
-	using Skyline.DataMiner.MediaOps.Live.API.Data;
 	using Skyline.DataMiner.MediaOps.Live.API.Enums;
 	using Skyline.DataMiner.MediaOps.Live.Automation.Mediation.ConnectionHandlers;
 	using Skyline.DataMiner.MediaOps.Live.Mediation.ConnectionHandlers.Data;
@@ -59,8 +58,7 @@ namespace IPMatrixConnectionHandler
 
 				if (isConnected)
 				{
-					var multicast = new Multicast(multicastIp);
-					var sourceEndpoint = connectionEngine.Api.Endpoints.GetByMulticasts(new[] { multicast })
+					var sourceEndpoint = connectionEngine.Api.Endpoints.GetByTransportMetadata("Multicast IP", multicastIp)
 						.SingleOrDefault();
 
 					if (sourceEndpoint != null)
@@ -104,7 +102,7 @@ namespace IPMatrixConnectionHandler
 				foreach (var connection in group)
 				{
 					var endpoint = connection.SourceEndpoint;
-					var multicastIP = endpoint.TransportTypeTSoIP.MulticastIP;
+					var multicastIP = endpoint.GetTransportMetadata("Multicast IP");
 
 					// Connect by setting the multicast IP in the "IP In" row of the Entries table
 					element.SetParameter("Text Value (Entries)", "IP In", multicastIP);
