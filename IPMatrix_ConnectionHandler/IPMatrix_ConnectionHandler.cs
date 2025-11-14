@@ -36,7 +36,7 @@ namespace IPMatrixConnectionHandler
 
 			var elementId = update.DmsElementId;
 			var destinationEndpoint = connectionEngine.Api.Endpoints.GetByElement(elementId)
-				.SingleOrDefault(e => e.Role == Role.Destination);
+				.SingleOrDefault(e => e.Role == EndpointRole.Destination);
 
 			if (destinationEndpoint == null)
 			{
