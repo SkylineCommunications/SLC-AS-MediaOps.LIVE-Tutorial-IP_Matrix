@@ -1,15 +1,15 @@
 namespace IPMatrixConnectionHandler
 {
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
 
-	using Skyline.DataMiner.Automation;
-	using Skyline.DataMiner.MediaOps.Live.API.Enums;
-	using Skyline.DataMiner.MediaOps.Live.Automation.Mediation.ConnectionHandlers;
-	using Skyline.DataMiner.MediaOps.Live.Mediation.ConnectionHandlers.Data;
+    using Skyline.DataMiner.Automation;
+    using Skyline.DataMiner.Solutions.MediaOps.Live.API.Enums;
+    using Skyline.DataMiner.Solutions.MediaOps.Live.Automation.Mediation.ConnectionHandlers;
+    using Skyline.DataMiner.Solutions.MediaOps.Live.Mediation.ConnectionHandlers.Data;
 
-	public class Script : ConnectionHandlerScript
+    public class Script : ConnectionHandlerScript
 	{
 		public override IEnumerable<ElementInfo> GetSupportedElements(IEngine engine, IEnumerable<ElementInfo> elements)
 		{
