@@ -1,5 +1,5 @@
 # SLC-AS-MediaOps.LIVE-Tutorial-IP_Matrix
-Tutorial for integrating an IP matrix in the MediaOps.LIVE solution.
+Complete [tutorial implementation](https://docs.dataminer.services/solutions/standard_solutions/MediaOps%20Live/Tutorials/IP%20Matrix/IP%20Matrix_ConnectionHandlerScript.html) for the integration of the IP Matrix connector in MediaOps Live.
 
 ## About DataMiner
 
