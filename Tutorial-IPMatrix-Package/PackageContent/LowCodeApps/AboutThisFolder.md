@@ -1,1 +1,0 @@
-This folder can contain .zip files containing low-code apps exported from DataMiner. They will be imported during installation of a .dmapp.
