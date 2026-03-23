@@ -34,12 +34,12 @@ id: 02f6e3be-4244-4eee-97da-6919958377ef
 #   Max length: 100 characters.
 #   Cannot contain newlines.
 #   Cannot contain leading or trailing whitespace characters.
-title: Tutorial - MediaOps.LIVE - IP Matrix
+title: Tutorial - MediaOps Live - IP Matrix
 
 # [Optional]
 # General information about the Catalog item.
 #   Max length: 100,000 characters
-short_description: Tutorial for integrating an IP matrix in the MediaOps.LIVE solution.
+short_description: Tutorial for integrating an IP matrix in the MediaOps Live solution.
 
 # [Optional]
 # A valid URL that points to the source code.
@@ -59,7 +59,8 @@ documentation_url: https://aka.dataminer.services/1133M17dO
 #   The name is required; max 256 characters.
 #   The email and URL are optional, and should be in valid email/URL formats.
 owners:
-  - name: 'Tom Waterbley'
+  - name: 'MediaOps Support'
+    email: 'support.mediaops@skyline.be'
   
 # [Optional]
 # Tags that allow you to categorize your Catalog items.
@@ -70,4 +71,4 @@ owners:
 tags:
   - Tutorial
   - IP Matrix
-  - MediaOps.Live
+  - MediaOps Live
