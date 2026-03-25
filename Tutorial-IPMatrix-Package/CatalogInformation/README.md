@@ -2,11 +2,12 @@
 
 ## About
 
-This package supports the **manual provisioning of endpoints and virtual signal groups** within an IP Matrix environment in MediaOps Live.
-It is designed as a **hands-on companion for the tutorial**, enabling users to explore and understand how IP Matrix configurations can be created and managed manually. By deploying this package, users can quickly get started with a realistic setup and follow along with the tutorial in a structured way.
+This package supports the **manual provisioning of endpoints and virtual signal groups** within an IP Matrix environment in MediaOps Live. It is designed as a **hands-on companion for the tutorial**, enabling users to explore and understand how IP Matrix configurations can be created and managed manually.
+
+By deploying this package, users can quickly get started with a realistic setup and follow along with the tutorial in a structured way.
 
 > [!TIP]
-> Follow the full step-by-step tutorial here: [Manual provisioning endpoints and virtual signal groups for an IP Matrix element](https://aka.dataminer.services/1133M17dO)
+> For the full step-by-step tutorial, see [Manual provisioning endpoints and virtual signal groups for an IP Matrix element](https://aka.dataminer.services/1133M17dO)
 
 ## Key Features
 
@@ -21,7 +22,7 @@ It is designed as a **hands-on companion for the tutorial**, enabling users to e
 
 - **Multi-Channel Playout Centers**: Manage signal distribution from playout servers to multiple transmission paths, enabling operators to provision and visualize stream routing across channels.
 
-- **Contribution & Distribution Networks**: Configure endpoints for incoming contribution feeds (e.g., satellite downlinks, remote venues, OB vans) and route them to appropriate processing or distribution chains.
+- **Contribution & Distribution Networks**: Configure endpoints for incoming contribution feeds (e.g., satellite downlinks, remote venues, OB vans, etc.) and route them to appropriate processing or distribution chains.
 
 - **Sports & Live Event Broadcasting**: Handle complex multi-camera setups where dozens of TSoIP streams need to be routed to production switchers, replay systems, and backup recording infrastructure.
 
