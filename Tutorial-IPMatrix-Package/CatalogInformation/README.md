@@ -2,12 +2,9 @@
 
 ## About
 
-This package supports the **manual provisioning of endpoints and virtual signal groups** within an IP Matrix environment in MediaOps Live. It is designed as a **hands-on companion for the tutorial**, enabling users to explore and understand how IP Matrix configurations can be created and managed manually.
+This package supports the **manual provisioning of endpoints and virtual signal groups** within an IP Matrix environment in MediaOps Live. It is designed as a **hands-on companion** for the [Manual provisioning endpoints and virtual signal groups for an IP Matrix element](https://aka.dataminer.services/1133M17dO) tutorial, enabling users to explore and understand how IP Matrix configurations can be created and managed manually.
 
 By deploying this package, users can quickly get started with a realistic setup and follow along with the tutorial in a structured way.
-
-> [!TIP]
-> For the full step-by-step tutorial, see [Manual provisioning endpoints and virtual signal groups for an IP Matrix element](https://aka.dataminer.services/1133M17dO)
 
 ## Key Features
 
